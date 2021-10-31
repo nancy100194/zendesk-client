@@ -36,7 +36,7 @@ const handlePassword = (e) =>
     else
     {  
         setcustomMessage("")
-        axios.post(' https://helpdeskticket-server.herokuapp.com/user/resetpassword', {password,cpassword},{
+        axios.post(' https://zendeskticket-server.herokuapp.com/user/resetpassword', {password,cpassword},{
             params: {
                 token
             }
