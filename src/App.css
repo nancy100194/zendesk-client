@@ -1,0 +1,279 @@
+
+/* overall*/
+
+.text-style
+{
+	text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:13px;
+	color:rgba(19, 170, 19, 0.87);
+}
+
+
+/* register css */
+
+body {
+
+  background-image: url(images/bg_pic1.jpg) !important;
+  background-position: center;
+  background-repeat:repeat; 
+  height: 100%;
+  background-size: auto;
+}
+
+.form-control {
+height: 40px;
+box-shadow: none;
+color: #969fa4;
+}
+.form-control:focus {
+border-color: #5cb85c;
+}
+.form-control, .btn {        
+border-radius: 3px;
+}
+.signup-text-style
+{
+	text-align: left;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:12px;
+	color:black
+}
+.signup-form {
+
+border-radius: 8px;
+background: white;
+box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+
+
+}
+
+.signup-form h4 {
+	color:black;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	margin: 0 0 5px;
+	position: relative;
+}
+
+.signup-form .hint-text {
+color:black;
+margin-bottom: 30px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+
+.signup-form .btn {        
+	font-size: 13px;
+	font-weight: bold;		
+	min-width: -webkit-fill-available;
+	outline: none !important;
+}
+   	
+/* Reset css*/
+
+.reset-form {
+
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+	
+	
+	}
+	
+	.reset-form h4 {
+		color:black;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		font-weight: bold;
+		font-size:20px;
+		margin: 0 0 5px;
+		position: relative;
+	}
+	.reset-form .btn {        
+		font-size: 13px;
+		font-weight: bold;		
+		min-width: -webkit-fill-available;
+		outline: none !important;
+	}
+	.reset-text-style
+{
+	text-align: left;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:12px;
+	color:black
+}	   
+
+	
+/* login css */
+
+.login-form {
+
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+	padding: 15px 5px;
+
+}
+
+.login-form h4 {
+	color:black;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	margin: 0 0 5px;
+	position: relative;
+	
+}
+.login-text-style
+{
+	text-align: left;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:12px;
+	color:black
+}
+
+.login-form .btn {        
+	font-size: 13px;
+	font-weight: bold;		
+	min-width: -webkit-fill-available;
+	outline: none !important;
+}
+
+.social-btn .btn {
+    border: none;
+    margin: 10px 3px 0;
+    opacity: 1;
+}
+.social-btn .btn:hover {
+    opacity: 0.9;
+}
+.social-btn .btn-secondary, .social-btn .btn-secondary:active {
+    background: hsl(216, 47%, 53%) !important;
+	font-size:14px;
+}
+.social-btn .btn-info, .social-btn .btn-info:active {
+    background: #0cabe6 !important;
+	font-size:14px;
+}
+.social-btn .btn-danger, .social-btn .btn-danger:active {
+    background: #df4930 !important;
+	font-size:14px;
+}
+
+/* or-separator*/
+
+.or-seperator {
+    margin-top:10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #f7f7f7;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight:bold;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}   
+
+/* contact us */
+
+.contact-form form {
+
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+	margin: 4px auto;
+	padding: 10px 20px;
+	font-size: 15px;
+	max-height:1000px
+
+}
+.contact-form h4 {
+	color:black;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	margin: 0 0 5px;
+	position: relative;
+	
+	
+}
+.contact-text-style
+{
+	text-align: left;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:12px;
+	color:black
+}
+.contact-form .btn {        
+	font-size: 13px;
+	font-weight: bold;		
+	min-width: -webkit-fill-available;
+	outline: none !important;
+}
+
+/*logo css*/
+
+.imager{
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 70px;
+	height: 50px;
+}
+
+
+/*ticket */
+.ticket-form
+{
+	border-radius:8px;
+	background: white;
+	box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+	padding: 20px 10px;
+	font-size: 15px;
+	
+}
+.ticket-list {
+	border-radius:5px;
+	background: white;
+	box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+	padding: 20px 20px;
+	font-size: 15px;
+	
+}
+.ticket .btn{
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: -webkit-fill-available;
+	outline: none !important;
+}
+/* table*/
+
+table {
+    border: 1px solid black;
+	width:100%;
+	
+}
+ table th{
+	 font-family:Verdana, Geneva, Tahoma, sans-serif;
+	 font-size:14px;
+	
+ }
+ table td{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:12px;
+	font-weight:600;
+
+
+}
+
