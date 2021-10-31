@@ -46,7 +46,7 @@ useEffect(()=>{
 <>
     <Navbar bg="light" expand="lg">
             <img src={logo} className=" imager d-inline-block align-top ml-2 " alt="logo" />
-            <Navbar.Brand href="/" style={style}>HelpDesk Ticketing</Navbar.Brand>
+            <Navbar.Brand href="/" style={style}>ZenDesk Ticketing</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">      
