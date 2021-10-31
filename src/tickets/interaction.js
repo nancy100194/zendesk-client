@@ -1,6 +1,6 @@
  import axios from 'axios';
 
- const BASE_URL = ' https://helpdeskticket-server.herokuapp.com';
+ const BASE_URL = ' https://zendeskticket-server.herokuapp.com';
 
  //getTickets
 export const fetchTickets =(token)=>{
