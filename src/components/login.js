@@ -32,7 +32,7 @@ import axios from 'axios'
         {
             setcustomMessage(" ")
             return axios
-            .post(` https://helpdeskticket-server.herokuapp.com/user/login`,{email,password})
+            .post(` https://zendeskticket-server.herokuapp.com/user/login`,{email,password})
          
             .then((res)=>{let data = res.data;
                 let token = data.token;
@@ -67,7 +67,7 @@ import axios from 'axios'
       }
    else{
        setcustomMessage("");
-       return axios.post(' https://helpdeskticket-server.herokuapp.com/user/forgetpassword', {
+       return axios.post(' https://zendeskticket-server.herokuapp.com/user/forgetpassword', {
         email
         })
      
